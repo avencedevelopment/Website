@@ -1,0 +1,73 @@
+.Contact{
+    height: 100vh;
+    background: #252525;
+    .ContactContent{
+        padding-top: 175px;
+    }
+
+    .ContactForm{
+        width: 75%;
+        display: flex;
+        margin: 0 auto;
+
+        .ContactFormLeft{
+            -webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+            -moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+            box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+
+            margin-right:-33px;
+            padding: 70px 60px;
+            width: 60%;
+            height: 100%;
+            background: linear-gradient(#141414,#2B2B2B);
+            border-radius: 15px;
+            z-index: 1;
+
+            h2{
+                width: 100%;
+            }
+
+
+
+        }
+
+        .ContactFormRight{
+
+        -webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+            -moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+            box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+
+            padding: 75px 60px 70px 100px;
+            width: 30%;
+            margin: 0 auto;
+            height: 70%;
+            background-color: #313131;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 60px;
+            z-index: 0;
+
+            .ContactInfo{
+                .ContactInfoTop{
+                    .ContactInfoText{
+                        display: flex;
+                        width: 100%;
+                        margin-bottom: 10px;
+
+                        svg{
+                            margin-right: 15px;
+                            width: 20px;
+                            height: 20px;
+                        }
+                        p{
+                            margin: 0;
+                            text-align: left;
+                            font-size: 14px;
+                            margin-top: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 

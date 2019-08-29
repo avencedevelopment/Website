@@ -1,0 +1,81 @@
+@media (min-width: 1200px){
+
+    .About{
+        background-color: #252525;
+        .AboutContent{
+            padding-top: 180px;
+            .AboutBox{
+                background: linear-gradient(#141414,rgb(36, 36, 36));
+                -webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+                -moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+                box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+                padding: 100px 100px;
+                border-radius: 15px;
+                z-index: 0;
+
+                h2{
+                    width: 85%;
+                }
+
+                p{
+                    margin-bottom: 20px;
+                }
+                .plast{
+                    margin-bottom: 50px;
+                }
+            }
+
+            .AboutBoxInfo{
+                
+            -webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+            -moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+            box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.60);
+
+            padding: 50px 40px 24px 90px;
+            margin: 0 auto;
+                width: 20%;
+            background-color: #313131;
+            border-radius: 15px;
+            text-align: center;
+            z-index: 1;
+            margin-top: -100px;
+            margin-right: 150px;
+
+                .ContactInfoText{
+                    display: flex;
+                    margin-bottom: 10px;
+
+                    svg{
+                        margin-right: 15px;
+                        width: 20px;
+                        height: 20px;
+                    }
+                    p{
+                        margin: 0;
+                        text-align: left;
+                        font-size: 14px;
+                        margin-top: 2px;
+                    }
+                }  
+
+            }
+        }
+
+        .AboutInstagram{
+            padding: 150px 0 50px 0;
+            .AboutInstagramContent{
+                margin-bottom: 45px;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+
+                img{
+                    width: 18%;
+                }
+            }
+            a{
+                padding: 20px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.Partners{
+    height: 100%;    
+    padding-top: 100px;
+    padding-bottom: 75px;
+
+    .PartnersLogos{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        img{
+            width: 13%;
+        }
+    }
+}

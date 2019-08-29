@@ -1,0 +1,189 @@
+@media (min-width: 1000px){
+
+.Nav{
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    padding-top: 40px;
+
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+
+        svg{
+            height: 35px;
+        }
+
+        .NavMenu{
+
+            display: flex;
+            justify-content: space-between;
+
+            .HomeMenu{
+                display: none;
+            }
+              
+            ul:first-child{
+                margin-top: 12px;
+                justify-content: space-between;
+                display: flex;
+                margin-right: 100px;
+                
+                li{
+                    margin-left: 20px;
+                    a{
+                        font-size: 14px;
+                        color: grey;
+                    }
+                    a:hover{
+                        color: white;
+                    }
+
+                }
+            }
+
+            ul:last-child{
+                display: flex;  
+                li{
+                    svg{
+                        width: 20px;
+                        height: 17px;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+}
+
+@media (max-width: 1000px){
+
+    .Nav{
+        position: absolute;
+        width: 100%;
+        background: transparent;
+        padding-top: 40px;
+    
+        .nav-container{
+            display: flex;
+            justify-content: space-between;
+    
+            svg{
+                height: 35px;
+            }
+    
+            .NavMenu{
+    
+                display: flex;
+                justify-content: space-between;
+                  
+
+                .HomeMenu{
+                    display: none
+                }
+                ul:first-child{
+                    margin-top: 20px;
+                    justify-content: space-between;
+                    display: flex;
+                    margin-right: 0px;
+                    
+                    li{
+                        margin-left: 10px;
+                        a{
+                            font-size: 14px;
+                            color: grey;
+                        }
+                        a:hover{
+                            color: white;
+                        }
+    
+                    }
+                }
+    
+                ul:last-child{
+                    display: none;  
+                    li{
+                        svg{
+                            width: 20px;
+                            height: 17px;
+                            margin-left: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 600px){
+
+    .Nav{
+        position: absolute;
+        width: 100%;
+        background: transparent;
+        padding-top: 40px;
+    
+        .nav-container{
+            display: flex;
+            justify-content: space-between;
+    
+            svg{
+                height: 35px;
+            }
+    
+            .NavMenu{
+    
+                display: flex;
+                justify-content: space-between;
+                  
+
+                
+                ul:first-child{
+                    margin-top: 20px;
+                    justify-content: space-between;
+                    display: none;
+                    margin-right: 0px;
+                    
+                    li{
+                        margin-left: 10px;
+                        a{
+                            font-size: 14px;
+                            color: grey;
+                        }
+                        a:hover{
+                            color: white;
+                        }
+    
+                    }
+                }
+    
+                ul:last-child{
+                    display: block;  
+                    .HomeMenu{
+                        display: block;
+                    }
+
+                    li{
+                        display: none;
+                        svg{
+                            width: 20px;
+                            height: 17px;
+                            margin-left: 8px;
+                        }
+                    }
+
+                    li:last-child{
+                        svg{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
